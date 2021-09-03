@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("../FontsFree-Net-SFProText-Regular.ttf");
+}
+
+* {
+    font-family: "SF Pro Text";
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 12px 0 12px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+}
+
+nav ul a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+    font-size: 0.9rem;
+}
+
+.icono {
+    width: 20px;
+    height: 20px;
+    background-size: 140% 80%;
+    display: block;
+    background-position: -2x -12px;
+    background-repeat: no-repeat;
+}
+
+.apple {
+    background-image: url("../imagenes/apple.svg");
+}
+
+
+/*terminar Icono no encontrado D:*/
+
+.buscar {
+    background-image: url()
+}
+
+.carrito {
+    background-image: url("../imagenes/sdsasd.png");
+    width: 20px;
+    height: 20px;
+    background-size: 120% 100%
+}
+
+.insertartext {
+    font-family: "SF Pro Text";
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.x {
+    text-align: center;
+    background-image: url("../imagenes/frente.png");
+    min-height: 700px;
+    background-position: center center;
+    background-size: 800px auto;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding-top: 1px;
+}
+
+.ofertas {
+    font-family: "SF Pro Text";
+    font-size: 200px;
+    text-align: center;
+    background-color: white;
+}
+
+.a1 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+.a2 {
+    font-size: 1.8rem;
+    color: white;
+    margin: 3px 0 0 0;
+}
+
+.a3 {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.links {
+    color: #1e89ff;
+    margin: 0 20px 0 20px;
+    font-size: 1.4rem;
+}
+
+
+/*-----------------------*/
+
+
+/*-----------------------*/
+
+.p {
+    max-width: 900px;
+    margin: 20px auto;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+footer {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 5fr;
+    font-size: 0.7rem;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+footer .final {
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .final {
+    text-align: center;
+    font-weight: bold;
+}
